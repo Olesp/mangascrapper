@@ -6,7 +6,6 @@ class Notifier():
     notification = Notify()
 
     def send(self, title, content, icon=None):
-        # TODO add the code to send the notification to the user when a new entry is passed
         self.notification.title = title
         self.notification.message = content
         if icon != None:
