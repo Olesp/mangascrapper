@@ -1,16 +1,1 @@
-{
-    "lirescan": [
-        {
-            "name": "My Hero Academia",
-            "dir_name": "my-hero-academia",
-            "url": "https://www.lirescan.me/my-hero-academia-lecture-en-ligne/",
-            "last_chapter": 279
-        },
-        {
-            "name": "Dr.Stone",
-            "dir_name": "dr-stone",
-            "url": "https://www.lirescan.me/dr-stone-lecture-en-ligne/",
-            "last_chapter": 160
-        }
-    ]
-}
+{"lirescan": [{"name": "My Hero Academia", "dir_name": "my-hero-academia", "url": ["https://www.lirescan.me/my-hero-academia-lecture-en-ligne/"], "last_chapter": 279}, {"name": "Dr.Stone", "dir_name": "dr-stone", "url": ["https://www.lirescan.me/dr-stone-lecture-en-ligne/"], "last_chapter": 160}]}

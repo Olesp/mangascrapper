@@ -2,9 +2,12 @@ import re
 
 
 class Manga():
+    '''
+    This object is just here to provide manga informations as the script goes on in order to download each pages
+    '''
 
     name = ""
-    url = ""
+    url = []
     chapter = 0
     dir_name = ""
 

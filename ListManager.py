@@ -3,6 +3,9 @@ import os
 
 
 class ListManager():
+    '''
+    An object used to manage the list of tracked mangas to download
+    '''
 
     mangas_list = {}
     lirescan_list = []
@@ -14,6 +17,7 @@ class ListManager():
                 self.lirescan_list.append(manga)
 
     def addManga(self, manga):
+        # Adds a manga to the list variable using a Manga() object
         new_manga = {}
         new_manga["name"] = manga.name
         new_manga["dir_name"] = manga.dir_name
@@ -31,10 +35,12 @@ class ListManager():
         self.updateFile(self.mangas_list)
 
     def updateFile(self, mangas_list):
+        # Write the modification to the file tracking all the mangas
         with open('mangas_list.json', 'w') as json_file:
             json.dump(self.mangas_list, json_file)
 
     def updateLastChapter(self, manga, chapter):
+        # Just increment the last chapter downloaded var of the current manga
         for i in self.lirescan_list:
             if i["name"] == manga.name:
                 i["last_chapter"] = chapter

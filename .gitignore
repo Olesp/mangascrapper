@@ -1,2 +1,6 @@
 __pycache__/Notifier.cpython-38.pyc
 images/
+__pycache__/ListManager.cpython-38.pyc
+__pycache__/Manga.cpython-38.pyc
+scrappers/__pycache__/__init__.cpython-38.pyc
+scrappers/__pycache__/LireScanScrapper.cpython-38.pyc
